@@ -72500,7 +72500,7 @@ C7(a,b){var s,r,q,p,o=null,n=b.cq($.aiZ(),t.S),m=b.dq(0,$.u5(),t.K5),l=J.bh(m)
 l.dK(m,new A.a7k())
 s=t.p
 r=A.DB(A.a([A.nG(o,B.j7,50,new A.a7l(a),o,o)],s),B.di,B.fx)
-q=A.cF(o,A.cV("Questions answered correctly in total: "+A.h(n),o,o,B.wB),B.n,o,o,o,o,B.AO,o,o)
+q=A.cF(o,A.cV("Questions answered correctly: "+A.h(n),o,o,B.wB),B.n,o,o,o,o,B.AO,o,o)
 p=A.cF(o,B.NA,B.n,o,o,o,o,B.AN,o,o)
 l=l.fq(m,new A.a7m(),t.As)
 return A.J2(r,A.fz(A.a([B.bT,q,B.bT,p,A.cF(o,A.fz(A.aa(l,!0,A.l(l).h("aT.E")),B.eb,B.aI,B.ar),B.n,o,o,o,o,B.AV,o,o),B.IZ],s),B.eb,B.aI,B.ar))}}
