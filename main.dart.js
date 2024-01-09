@@ -40539,7 +40539,7 @@ A.zf.prototype={
 Y_(a,b,c){var s
 if(b==null)return B.a0
 s=A.cV(b,1,B.bi,null)
-return new A.hQ(B.jL,1,null,b.length>12?B.NB:s,null)},
+return new A.hQ(B.jL,1,null,b.length>12?B.NC:s,null)},
 I(a){var s=this.d
 if(s instanceof A.kN&&!s.gDH()){s.toString
 s=t.My.a(s).D7$
@@ -71506,7 +71506,7 @@ A.Qp.prototype={}
 A.pP.prototype={
 I(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.akx(!0,A.jI(A.fz(A.a([B.ND,B.wk,A.cV(r==null?"page not found":r,s,s,s),B.wk,new A.zk(new A.YK(a),B.NE,s)],t.p),B.al,B.io,B.ar),s,s),!0)}}
+return A.akx(!0,A.jI(A.fz(A.a([B.NE,B.wk,A.cV(r==null?"page not found":r,s,s,s),B.wk,new A.zk(new A.YK(a),B.NF,s)],t.p),B.al,B.io,B.ar),s,s),!0)}}
 A.YK.prototype={
 $0(){return A.q1(this.a).t1(0,"/",null)},
 $S:0}
@@ -72283,7 +72283,7 @@ $2(a,b){return B.Hn},
 $S:467}
 A.q3.prototype={
 C7(a,b){var s=null,r=t.p
-return A.J2(A.DB(A.a([A.nG(s,B.j9,50,new A.a_P(a),s,s)],r),B.di,B.fx),A.jI(A.fz(A.a([B.bT,A.cF(s,B.NJ,B.n,s,s,s,s,B.eg,s,s),new A.Kr(new A.a9j().rZ(),s),B.iZ,A.ajI(B.Nz,new A.a_Q(b,a)),B.iZ,A.fz(A.a([A.cF(s,B.NC,B.n,s,s,s,s,s,B.eh,400),A.cF(s,B.NA,B.n,s,s,s,s,s,B.eh,400)],r),B.al,B.aI,B.ar),B.J_],r),B.al,B.aI,B.ar),s,s))}}
+return A.J2(A.DB(A.a([A.nG(s,B.j9,50,new A.a_P(a),s,s)],r),B.di,B.fx),A.jI(A.fz(A.a([B.bT,A.cF(s,B.NJ,B.n,s,s,s,s,B.eg,s,s),new A.Kr(new A.a9j().rZ(),s),B.iZ,A.ajI(B.Nz,new A.a_Q(b,a)),B.iZ,A.fz(A.a([A.cF(s,B.ND,B.n,s,s,s,s,s,B.eh,400),A.cF(s,B.NB,B.n,s,s,s,s,s,B.eh,400)],r),B.al,B.aI,B.ar),B.J_],r),B.al,B.aI,B.ar),s,s))}}
 A.a_P.prototype={
 $0(){return A.G7(this.a,"stats",t.X)},
 $S:0}
@@ -72500,8 +72500,8 @@ C7(a,b){var s,r,q,p,o=null,n=b.cq($.aiZ(),t.S),m=b.dq(0,$.u5(),t.K5),l=J.bh(m)
 l.dK(m,new A.a7k())
 s=t.p
 r=A.DB(A.a([A.nG(o,B.j7,50,new A.a7l(a),o,o)],s),B.di,B.fx)
-q=A.cF(o,A.cV("Correctly answered questions: "+A.h(n),o,o,B.wB),B.n,o,o,o,o,B.AO,o,o)
-p=A.cF(o,B.NG,B.n,o,o,o,o,B.AN,o,o)
+q=A.cF(o,A.cV("Questions answered correctly in total: "+A.h(n),o,o,B.wB),B.n,o,o,o,o,B.AO,o,o)
+p=A.cF(o,B.NA,B.n,o,o,o,o,B.AN,o,o)
 l=l.fq(m,new A.a7m(),t.As)
 return A.J2(r,A.fz(A.a([B.bT,q,B.bT,p,A.cF(o,A.fz(A.aa(l,!0,A.l(l).h("aT.E")),B.eb,B.aI,B.ar),B.n,o,o,o,o,B.AV,o,o),B.IZ],s),B.eb,B.aI,B.ar))}}
 A.a7k.prototype={
@@ -72573,7 +72573,7 @@ if(s==null)return B.NH
 else{r=this.a
 r.cq($.u5().gex(),t.TZ).acU(s)
 q=J.a7(s)
-if(q.gZ(s))return B.NF
+if(q.gZ(s))return B.NG
 else{s=q.fq(s,new A.a9m(r,a),t.kE)
 return A.fz(A.aa(s,!0,A.l(s).h("aT.E")),B.al,B.aI,B.ar)}}}}},
 $S:474}
@@ -79082,19 +79082,19 @@ B.MQ=new A.q(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Mt=new A.q(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Ny=new A.df(B.Mc,B.Nh,B.N2,B.KT,B.MY,B.M6,B.Nl,B.Lj,B.LO,B.MT,B.KM,B.N3,B.MW,B.MQ,B.Mt)
 B.Nz=new A.bL("Practice",null,null,null,null,null,null)
+B.NA=new A.bL("Questions answered correctly per topic:",null,B.wB,null,null,null,null)
 B.j5=new A.q(!0,B.di,null,null,null,null,null,null,null,1,null,null,1.2,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.NA=new A.bL("Clicking on a practice button navigates to the practice page, where a question related to the topic with the least amount of correct answers will be presented.",null,B.j5,B.cw,null,null,null)
-B.NB=new A.bL("Back",null,null,null,null,null,null)
-B.NC=new A.bL("Clicking on a topic navigates to the question page, where a question related to the selected topic will be presented.",null,B.j5,B.cw,null,null,null)
+B.NB=new A.bL("Clicking on a practice button navigates to the practice page, where a question related to the topic with the least amount of correct answers will be presented.",null,B.j5,B.cw,null,null,null)
+B.NC=new A.bL("Back",null,null,null,null,null,null)
+B.ND=new A.bL("Clicking on a topic navigates to the question page, where a question related to the selected topic will be presented.",null,B.j5,B.cw,null,null,null)
 B.fx=new A.bL("Quiz Master",null,null,null,null,null,null)
 B.wD=new A.q(!0,null,null,null,null,null,15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.j7=new A.bL("Topics",null,B.wD,null,null,null,null)
-B.ND=new A.bL("Page Not Found",null,B.fw,null,null,null,null)
+B.NE=new A.bL("Page Not Found",null,B.fw,null,null,null,null)
 B.j9=new A.bL("Stats",null,B.wD,null,null,null,null)
 B.Mk=new A.q(!0,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.NE=new A.bL("Go to home page",null,B.Mk,null,null,null,null)
-B.NF=new A.bL("No topics available",null,null,null,null,null,null)
-B.NG=new A.bL("Correctly answered questions by topics:",null,B.wB,null,null,null,null)
+B.NF=new A.bL("Go to home page",null,B.Mk,null,null,null,null)
+B.NG=new A.bL("No topics available",null,null,null,null,null,null)
 B.My=new A.q(!0,null,null,null,null,null,17,B.aC,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.wH=new A.bL("Next question",null,B.My,null,null,null,null)
 B.NH=new A.bL("No topics data available",null,B.bV,null,null,null,null)
